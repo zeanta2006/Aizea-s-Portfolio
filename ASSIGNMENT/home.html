@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oghenekome Aizeanta Oke - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="profile.html">Profile/Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Welcome to My Photography Portfolio</h1>
+            <p>Capturing moments, telling stories through a lens.</p>
+            <a href="projects.html" class="button">View My Projects</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Oghenekome Aizeanta Oke. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Basic JavaScript for interactivity (you can expand this)
+        const heroButton = document.querySelector('#hero .button');
+        if (heroButton) {
+            heroButton.addEventListener('mouseover', () => {
+                heroButton.style.backgroundColor = '#0056b3';
+            });
+            heroButton.addEventListener('mouseout', () => {
+                heroButton.style.backgroundColor = '#007bff';
+            });
+        }
+    </script>
+</body>
+</html>
